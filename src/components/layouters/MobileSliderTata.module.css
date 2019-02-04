@@ -1,0 +1,17 @@
+.base{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+
+}
+.slider{
+    width:100%;
+    white-space:nowrap;
+    margin-left:7.5%;
+}
+.item{
+    width:85%;
+    height:auto;
+    transform:scale(0.9);
+    display:inline-block
+}

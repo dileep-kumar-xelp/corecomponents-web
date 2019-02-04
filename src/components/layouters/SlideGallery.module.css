@@ -1,0 +1,40 @@
+.base{
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+.slider{
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+  transition: 300ms;   
+  position: relative;
+}
+.forward{
+  width:50px;
+  height:50px;
+  position: absolute;
+  color:#fff;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  z-index: 10;
+}
+.backward{
+  width:50px;
+  height:50px;
+  position: absolute;
+  color:#fff;
+  left:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  z-index: 10;
+}
+.item{
+  width:100%;
+  display:inline-block;
+  vertical-align:top;
+  white-space:normal;
+}

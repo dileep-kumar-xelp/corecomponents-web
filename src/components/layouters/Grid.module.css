@@ -1,0 +1,15 @@
+.base{
+    width:100%;
+    height:auto;
+    padding:10px;
+}
+.item{
+    width:100%;
+    height:auto;
+    display:inline-block;
+    padding:10px;
+}
+.column{
+    display:inline-block;
+    vertical-align:top;
+}
