@@ -28,7 +28,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <p>this is to test</p>
         <BrowserRouter>
           <CenteredContent contentWidth={1200}>
             <ContentWithPanel
