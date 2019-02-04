@@ -1,0 +1,21 @@
+.base{
+    width:100%;
+    height:auto;
+    position:relative;
+    overflow:hidden;
+}
+.slider{
+    width:100%;
+    white-space:nowrap;
+}
+.item{
+    width:80%;
+    height:auto;
+    padding:0 10px;
+    display:inline-block
+}
+.child{
+    width:100%;
+    padding-bottom:120%;
+    background:#ccc;
+}

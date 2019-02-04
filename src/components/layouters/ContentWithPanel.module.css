@@ -1,0 +1,23 @@
+.base{
+    width:100%;
+    position:relative;
+}
+.panel{
+    width:300px;
+    position:fixed;
+    top:0;
+}
+.content{
+    width:100%;
+    height:auto;    
+    padding-left:300px;
+}
+@media only screen and (max-width: 1024px) {
+    .content{
+        padding:0;
+    }
+    .panel{
+        width:100%;
+        position:static;
+    }
+  }

@@ -1,0 +1,51 @@
+.base{
+    width:100%;
+    height:40px;
+    position:relative;
+}
+.base input{
+    text-decoration: none;
+    -webkit-appearance: none;
+    width:100%;
+    border:none;
+    height:40px;
+    outline: none;
+    background:none;
+    vertical-align:top;
+    font-size:14px;
+}
+.baseActive{
+    composes:base;
+}
+.underline{
+    width:100%;
+    height:2px;
+    background:#ccc;
+    position:absolute;
+    bottom:0;
+    left:0;
+    overflow:hidden;
+}
+.scaler{
+    width:100%;
+    height:2px;
+    background:#2d2d2d;
+    position:absolute;
+    bottom:0;
+    left:-100%;
+    transition:300ms;
+}
+.baseActive .scaler{
+    transform:translateX(100%)
+}
+.label{
+    position:absolute;
+    left:0;
+    bottom:10px;
+    font-size:14px;
+    transform-origin:left center;
+    transition:300ms;
+}
+.baseActive .label{
+    transform:scale(0.7)translateY(-30px);
+}

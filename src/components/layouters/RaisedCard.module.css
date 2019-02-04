@@ -1,0 +1,24 @@
+.base{
+    width:100%;
+    height:auto;
+    padding:15px;
+    border-radius:2px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(16,22,26,.15), 0 0 0 rgba(16,22,26,0), 0 0 0 rgba(16,22,26,0);
+}
+.elevation1{
+    conposes:base;
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 0 0 rgba(16,22,26,0), 0 1px 1px rgba(16,22,26,.2);
+}
+.elevation2{
+    composes:base;
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 1px 1px rgba(16,22,26,.2), 0 2px 6px rgba(16,22,26,.2);
+}
+.elevation3{
+    composes:base;
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 2px 4px rgba(16,22,26,.2), 0 8px 24px rgba(16,22,26,.2);
+}
+.elevation4{
+    composes:base;
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+}

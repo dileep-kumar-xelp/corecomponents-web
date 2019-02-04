@@ -1,0 +1,28 @@
+.base{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.leftArrow{
+    width:45px;
+    height:45px;
+    position: absolute;
+    left:10px;
+    top:0;
+    bottom:0;
+    margin: auto;
+    z-index:1;
+
+    background-size:auto 30px;
+    background-position:center;
+    transform:rotate(180deg);
+    border:1px solid #fff;
+    border-radius:50%;
+
+}
+.rightArrow{
+    composes:leftArrow;
+    right:10px;
+    left:initial;
+    transform:rotate(0deg);
+}

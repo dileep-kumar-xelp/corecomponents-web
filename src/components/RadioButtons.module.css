@@ -1,0 +1,58 @@
+.base {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: left;
+}
+.button {
+  width: auto;
+  position: relative;
+  padding-top: 35px;
+  display: inline-block;
+  min-width: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.button:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 1;
+  transition: 300ms;
+}
+.button:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #fe214c;
+  background: #fe214c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  transition: 300ms;
+}
+.buttonActive {
+  composes: button;
+}
+.buttonActive.button:after {
+  opacity: 1;
+}
+.buttonActive.button:before {
+  opacity: 0;
+}
+.lable {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}

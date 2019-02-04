@@ -1,0 +1,22 @@
+.base{
+    width:100%;
+    padding:20px;
+    max-height:100vh;
+    overflow:auto;
+}
+.link{
+    width:100%;
+    font-size:14px;
+    padding:5px 0;
+    cursor:pointer;
+    user-select: none;
+    transition:200ms;
+}
+.link:hover{color:#fe214c}
+@media only screen and (max-width:1024px){
+    .link{
+        width:auto;
+        margin-right:15px;
+        display:inline-block;
+    }
+}
