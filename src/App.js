@@ -36,6 +36,7 @@ class App extends Component {
                   links={[
                     { label: "Form", url: "/Form" },
                     { label: "Input", url: "/Input" },
+                    { label: "Input", url: "/Input" },
                     { label: "Checkbox", url: "/Checkbox" },
                     {
                       label: "Tag Cloud",
@@ -78,6 +79,7 @@ class App extends Component {
               <div>
                 <Switch>
                   <Route path="/HorizontalSlide" component={HorizontalSlide} />
+                  <Route path="/Input" component={Input} />
                   <Route path="/Input" component={Input} />
                   <Route path="/Form" component={FormDemo} />
                   <Route path="/CheckBox" component={CheckBoxDemo} />
